@@ -3,7 +3,7 @@ pragma solidity ^0.4.0;
 contract memoryOf {
   
   string thanksMess = "March 18, 2018 - today I've focused my idea to make the world free from plastic. Thanks to Silvia (my world), Stephen Hawking (RIP, my myth), Marco Montemagno and Lorenzo Tognali to inspire me";
-  string SHAMess = "first draft's SHA265 05141155b654301b4722884f8432c0f220fddcd80f216feabc4a57752a036d40";
+  string SHAMess = "first draft's SHA265 8a5a134f2a4948ae7477fd63de26479cc91dfddd37693cd3fac5edca876d5346";
   
   function getTanks() public view returns(string){
   
@@ -11,7 +11,7 @@ contract memoryOf {
   
   }
   
-  function getSHAdata() public view returns(string){
+  function getHASHdata() public view returns(string){
   
   return SHAMess;
   
